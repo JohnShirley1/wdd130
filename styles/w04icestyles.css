@@ -1,0 +1,31 @@
+header, footer, main {
+    text-align: center;
+    margin: auto 0;
+    width: 40%;
+}
+h1 {
+    font-size: 40x;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hp {
+    font-size: small;
+    text-align: center;
+
+}
+
+.hp2 {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+}
+
+.pnelsonpic {
+    height: 325px;
+    width: 250px;
+}
