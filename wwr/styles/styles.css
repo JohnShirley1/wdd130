@@ -203,6 +203,14 @@ main section {
 main section img {
     box-sizing: border-box;
 }
+
+/* Blog CSS ------------------------------------------------------------------------------------------------------------------------------------------- */
+.blog-home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 /*Responsive CSS*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
