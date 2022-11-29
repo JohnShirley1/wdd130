@@ -1,16 +1,40 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins:wght@600&display=swap');
 /*--------------------------------------------------- Navigation/Header -------------------------------------------------------*/
+header {
+    
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    width: 80px;
+    z-index: +1;
+}
+#logo_link{   
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    z-index: +1;
+
+}
 nav {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     z-index: +1;
     
 }
 nav a {
-    color: white;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    font-size: 30px;
+    color: #f4feff;
     text-align: center;
     text-decoration: none;
-    padding: 35px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 nav a:hover {
     background-color: #FFC380;
@@ -42,6 +66,10 @@ nav a:hover {
     /* z-index: -1; */
 }
 /*---------------------------------------------------------- Body -------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: var("Josefin Sans");
+    color: var(--headline-color-on-white);
+  }
 body {
     max-width: 1600px;
     font-size: 22px;
