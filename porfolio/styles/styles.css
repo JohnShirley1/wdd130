@@ -65,6 +65,13 @@ nav a:hover {
     grid-row: 1/3;
     /* z-index: -1; */
 }
+.hero-txt1 {
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 63px;
+}
 /*---------------------------------------------------------- Body -------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
     font-family: var("Josefin Sans");
