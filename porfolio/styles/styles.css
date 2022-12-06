@@ -46,19 +46,20 @@ nav a:hover {
     margin-top: -100px; 
 }
 #hero-msg {
-    grid-column: 2/3;
+    grid-column: 1/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 250px;
 }
 #hero-msg h4 {
     color: white;
 }
 #hero-msg h1, #hero-msg h4 {
-    text-align: center;
+    text-align: left;
 }
 #hero-img {
     width: 100%;
-   
+    height: 100vh;
 }
 .hero-box {
     grid-column: 1/4;
@@ -68,6 +69,14 @@ nav a:hover {
 .hero-txt1 {
     color: #ffffff;
     font-family: "Poppins", Sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 63px;
+}
+.hero-txt2 {
+    color: #34bac4;
+    font-family: "Poppins", Sans-serif;
+    text-shadow: 0 0 10px #000;
     font-size: 55px;
     font-weight: 700;
     line-height: 63px;
@@ -83,3 +92,53 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/*------------------------------------------------------ About Me --------------------------------------------------------------*/
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.about-me-img-box {
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    display: grid;
+    
+}
+.about-me-img {
+    width: 72%;
+    height: 92%;
+    grid-column: 2/4;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-me-txt-box {
+    
+    grid-column: 2/3;
+}
+.about-me-title {
+    padding-right: 20px;
+}
+.about-me-p {
+    padding-right: 20px;
+}
+
+/* --------------------------------------------------- Scrolling Img ----------------------------------------------------------- */
+.background-scroll {
+    width: 100%;
+    height: 100%;
+}
+.scrolling-image {
+    /* The image used */
+    /* background-image: url("images/motherboard2.jpg"); */
+  
+    /* Set a specific height */
+    min-height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
