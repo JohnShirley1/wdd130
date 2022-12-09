@@ -93,6 +93,7 @@ body {
     padding: 0;
 }
 .title {
+    padding-bottom: 50px;
     justify-content: center;
     display: flex;
 }
@@ -147,14 +148,24 @@ body {
   }
  
 /* ------------------------------------------------------- Projects ----------------------------------------------------------------------*/
+.projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .proj-section {
     grid-template-columns: 1fr 1fr;
     display: grid;
 }
-
+.proj-box {
+    padding: 25px;
+    grid-template-rows: 1.25fr .75fr;
+    display: grid;
+    border: #000;
+}
 
 .proj-img {
     width: 100%;
+    height: 100%;
 }
 
   /* ----------------------------------------------------- Blog -------------------------------------------------------------------------*/
