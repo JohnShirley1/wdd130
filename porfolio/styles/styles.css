@@ -92,13 +92,17 @@ body {
     margin: 0;
     padding: 0;
 }
+.title {
+    justify-content: center;
+    display: flex;
+}
 
 /*------------------------------------------------------ About Me --------------------------------------------------------------*/
 .about-me {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 .about-me-img-box {
     grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -113,7 +117,7 @@ body {
     margin-bottom: 50px;
 }
 .about-me-txt-box {
-    
+    padding-top: 30px;
     grid-column: 2/3;
 }
 .about-me-title {
@@ -130,15 +134,30 @@ body {
 }
 .scrolling-image {
     /* The image used */
-    /* background-image: url("images/motherboard2.jpg"); */
+    background-image: url("../images/motherboard3.jpg");
   
-    /* Set a specific height */
-    min-height: 300px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Set a specific height */
+  min-height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
  
+/* ------------------------------------------------------- Projects ----------------------------------------------------------------------*/
+.proj-section {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+
+
+.proj-img {
+    width: 100%;
+}
+
+  /* ----------------------------------------------------- Blog -------------------------------------------------------------------------*/
+.blog-img {
+    width: 100%;
+}
