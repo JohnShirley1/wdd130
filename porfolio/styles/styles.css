@@ -178,25 +178,53 @@ body {
 .projects {
     padding-top: 50px;
     padding-bottom: 50px;
+    grid-template-rows: 400px 400px;
 }
-.proj-section {
+.proj-section1 {
     grid-template-columns: 1fr 1fr;
+    grid-row: 1/2;
+    display: grid;
+}
+.proj-section2 {
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2/3;
     display: grid;
 }
 .proj-box {
     padding: 25px;
-    grid-template-rows: 1.25fr .75fr;
+    grid-template-rows: 1.25fr .15fr .75fr;
     display: grid;
     border: #000;
 }
 
 .proj-img {
     width: 100%;
-    height: 100%;
+    border: 3px solid #000;
 }
 
 
   /* ----------------------------------------------------- Blog -------------------------------------------------------------------------*/
+.blog-page {
+    grid-template-rows: 500px 500px 500px;
+    display: grid;
+}
 .blog-img {
     width: 100%;
+    height: 100%;
+}
+
+.block1 {
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1/2;
+    display: grid;
+}
+.block2 {
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2/3;
+    display: grid;
+}
+.block3 {
+    grid-template-columns: 1fr 1fr;
+    grid-row: 3/4;
+    display: grid;
 }
