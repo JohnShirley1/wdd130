@@ -83,6 +83,7 @@ nav a:hover {
 }
 /*---------------------------------------------------------- Body -------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
+    text-align: center;
     font-family: var("Josefin Sans");
     color: var(--headline-color-on-white);
   }
@@ -134,8 +135,8 @@ body {
     
 }
 .about-me-img {
-    width: 77%;
-    height: 92%;
+    width: 85%;
+    height: 85%;
     grid-column: 2/4;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -184,6 +185,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-row: 1/2;
     display: grid;
+    
 }
 .proj-section2 {
     grid-template-columns: 1fr 1fr;
@@ -192,39 +194,79 @@ body {
 }
 .proj-box {
     padding: 25px;
-    grid-template-rows: 1.25fr .15fr .75fr;
+    grid-template-rows: 1.25fr .75fr;
     display: grid;
-    border: #000;
 }
-
+.proj-p {
+    margin: 20px;
+}
+.proj-txt-box {
+    border: 3px solid #000;
+    
+}
 .proj-img {
     width: 100%;
-    border: 3px solid #000;
+    height: 100%;
+    border-top: 3px solid #000;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
 }
 
 
   /* ----------------------------------------------------- Blog -------------------------------------------------------------------------*/
 .blog-page {
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: 250px 250px 550px 300px;
     display: grid;
+    grid-gap: 75px;
 }
-.blog-img {
-    width: 100%;
-    height: 100%;
+.blog-img1 {
+    display: grid;
+    width: 250px;
+    height: 200px;
+    margin: 30px 0px 30px 0px;
 }
-
+.blog-img3 {
+    display: grid;
+    width: 250px;
+    height: 250px;
+    margin: 30px 0px 30px 0px;
+}
+.blog-img2 {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    margin: 70px 0px 30px 0px;
+}
 .block1 {
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1/2;
-    display: grid;
-}
-.block2 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .7fr 1fr;
     grid-row: 2/3;
     display: grid;
+    border: 3px solid #000;
+    align-content: center;
+    justify-items: center;
+    margin: 0px 25px 0px 25px;
+    
 }
-.block3 {
-    grid-template-columns: 1fr 1fr;
+.block2 {
+    grid-template-columns: .7fr 1fr;
     grid-row: 3/4;
     display: grid;
+    border: 3px solid #000;
+    align-content: center;
+    justify-items: center;
+    margin: 0px 25px 0px 25px;
+}
+.block3 {
+    grid-template-columns: .7fr 1fr;
+    grid-row: 4/5;
+    display: grid;
+    border: 3px solid #000;
+    align-content: center;
+    justify-items: center;
+    margin: 0px 25px 0px 25px;
+}
+.blog-p {
+    display: grid;
+    align-content: center;
+    margin: 15px;
 }
